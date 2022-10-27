@@ -1,9 +1,14 @@
 {
-    "name": "rover",
-    "version": "1.0.0",
-    "description": "",
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "workspaces": ["formatter/*", "greeter/*", "math/*"]
-  }
+  "name": "rover",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "formatter/*",
+    "greeter/*",
+    "math/*"
+  ],
+  "packageManager": "npm@8.19.1"
+}
