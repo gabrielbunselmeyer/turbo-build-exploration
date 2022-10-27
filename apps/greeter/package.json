@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "npx tsc; node dist/greeter/src/index.js",
+    "build": "exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
