@@ -1,0 +1,24 @@
+{
+  "name": "turbo-build-exploration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielbunselmeyer/turbo-build-exploration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielbunselmeyer/turbo-build-exploration/issues"
+  },
+  "homepage": "https://github.com/gabrielbunselmeyer/turbo-build-exploration#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "typescript": "^4.8.4"
+  }
+}
