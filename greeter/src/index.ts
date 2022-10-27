@@ -1,4 +1,10 @@
-import { greet } from './greet'
+import { addNumbers } from '../../math/src/add-numbers'
+import { format } from '../../formatter/src/formatter'
+
+function greet(name: string, age: string) {
+  var convertedAge = parseInt(age)
+  return `Hello ${format(name, convertedAge)}. If you were 10 years older you'd be ${addNumbers(convertedAge, 10)}`
+}
 
 const express = require('express')
 const app = express()
