@@ -1,0 +1,39 @@
+version: "3"
+
+services:
+  formatter:
+    container_name: formatter
+    build:
+      context: .
+      dockerfile: ./apps/formatter/Dockerfile
+    restart: always
+    ports:
+      - 3000:3000
+    networks:
+      - test_network
+  greeter:
+    container_name: greeter
+    build:
+      context: .
+      dockerfile: ./apps/greeter/Dockerfile
+    restart: always
+    ports:
+      - 3001:3001
+    networks:
+      - test_network
+  math:
+    container_name: math
+    build:
+      context: .
+      dockerfile: ./apps/math/Dockerfile
+    restart: always
+    ports:
+      - 3001:3001
+    networks:
+      - test_network
+
+# Define a network, which allows containers to communicate
+# with each other, by using their container name as a hostname
+networks:
+  test_network:
+    external: true
