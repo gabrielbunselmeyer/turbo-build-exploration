@@ -12,10 +12,10 @@
       "noImplicitAny": true,                               
       "skipLibCheck": true,
       // "baseUrl": ".",
-      // "paths": {
-      //   "@math/*": ["math/src/*"],
-      //   "@formatter/*": ["formatter/src/*"]
-      // }
+      "paths": {
+        "@math/*": ["../../packages/math/src/*"],
+        "@formatter/*": ["../../formatter/src/*"]
+      }
     }
   }
   

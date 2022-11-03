@@ -1,17 +1,14 @@
 {
   "extends": "../../tsconfig.json",
-
   "compilerOptions": {
     "outDir": "dist"
   },
-
   "include": [
     "src"
   ],
-
-      "baseUrl": "../",
-      "paths": {
-        "@math/*": ["math/src/*"],
-        "@formatter/*": ["formatter/src/*"]
-      }
+  "baseUrl": "../",
+  "paths": {
+    "@math/*": ["math/src/*"],
+    "@formatter/*": ["formatter/src/*"]
+  }
 }

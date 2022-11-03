@@ -1,5 +1,5 @@
-import { addNumbers } from '../../math/src/add-numbers'
-import { format } from '../../formatter/src/formatter'
+import { addNumbers } from 'math'
+import { format } from 'formatter'
 
 function greet(name: string, age: string) {
   var convertedAge = parseInt(age)
