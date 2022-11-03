@@ -37,4 +37,4 @@ RUN adduser --system --uid 1001 expressjs
 USER expressjs
 COPY --from=installer /app .
 
-CMD ts-node apps/greeter/src/index.ts
+CMD npx ts-node apps/greeter/src/index.ts
