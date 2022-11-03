@@ -17,6 +17,7 @@ app.get('/', (req, res) => {
 
 // @ts-ignore
 app.get('/greet', (req, res) => {
+    console.log("Received /greet call!")
     res.send(greet(req.query.name, req.query.age))
 })
 
