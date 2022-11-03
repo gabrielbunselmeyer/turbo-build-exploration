@@ -10,12 +10,7 @@
       "forceConsistentCasingInFileNames": true,
       "strict": false,
       "noImplicitAny": true,                               
-      "skipLibCheck": true,
-      // "baseUrl": ".",
-      "paths": {
-        "@math/*": ["../../packages/math/src/*"],
-        "@formatter/*": ["../../formatter/src/*"]
-      }
+      "skipLibCheck": true
     }
   }
   
